@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b4c29ddb3cf21d4e9b0596a8ba26af7, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  itemList:
+  - itemName: 
+    itemID: 0
+    itemDesc: 'If you drink this nice bottle you will get some health back.
+
+
+      + 20 Health'
+    itemIcon: {fileID: 0}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 1
+    itemWeight: 0
+    maxStack: 0
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: Justice Hammer
+    itemID: 1
+    itemDesc: The holy hammer of Brickman
+    itemIcon: {fileID: 21300000, guid: f736829f6a6ca374db0b45aa141e03b1, type: 3}
+    itemModel: {fileID: 1685849877697774, guid: 98122ba06268dcb4fbd548aa59fe07db,
+      type: 2}
+    itemValue: 100000000
+    itemType: 1
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 100
+    itemAttributes:
+    - attributeName: Damage
+      attributeValue: 100
+  - itemName: Helmet
+    itemID: 3
+    itemDesc: Simple Helmet
+    itemIcon: {fileID: 21300000, guid: 52b1e3fc60614e446b61e1c6bb148f57, type: 3}
+    itemModel: {fileID: 1943160788547640, guid: 0c8417678367eb74e85ba559a9768022,
+      type: 2}
+    itemValue: 100000000
+    itemType: 4
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 100
+    itemAttributes:
+    - attributeName: Armor
+      attributeValue: 10
+  - itemName: Bracer
+    itemID: 4
+    itemDesc: Simple Bracer
+    itemIcon: {fileID: 21300000, guid: 9e108c3d338a850449f80cf654004b28, type: 3}
+    itemModel: {fileID: 1648147300761638, guid: d8d7a3febabfd2946a48cb3ae5401e18,
+      type: 2}
+    itemValue: 100000000
+    itemType: 11
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes:
+    - attributeName: Armor
+      attributeValue: 10
